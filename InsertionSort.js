@@ -1,4 +1,4 @@
-const InsertionSort = (arr) => {
+const insertionSort = (arr) => {
 	for (let i = 1; i < arr.length; i++) {
 		let j = i - 1;
 		let temp = arr[i];
@@ -13,6 +13,6 @@ const InsertionSort = (arr) => {
 };
 
 const arr = [1, 64, 24, -5, -23];
-InsertionSort(arr);
+insertionSort(arr);
 
 console.log(arr);

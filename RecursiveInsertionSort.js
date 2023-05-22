@@ -1,9 +1,9 @@
-const RecursiveInsertionSort = (arr, n) => {
+const recursiveInsertionSort = (arr, n) => {
 	// Base case
 	if (n <= 1) return;
 
 	// Sort first n-1 elements
-	RecursiveInsertionSort(arr, n - 1);
+	recursiveInsertionSort(arr, n - 1);
 
 	// Insert last element at its correct position
 	// in sorted array.
@@ -21,6 +21,6 @@ const RecursiveInsertionSort = (arr, n) => {
 };
 
 const arr = [1, 64, 24, -5, -23];
-RecursiveInsertionSort(arr, arr.length);
+recursiveInsertionSort(arr, arr.length);
 
 console.log(arr);
