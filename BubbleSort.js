@@ -10,6 +10,8 @@ const bubbleSort = (arr) => {
 	}
 };
 
+// (On^2)
+
 const arr = [1, 64, 24, -5, -23];
 bubbleSort(arr);
 

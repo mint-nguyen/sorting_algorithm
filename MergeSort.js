@@ -25,6 +25,8 @@ const mergeSort = (arr) => {
 	merge(firstHalf, secondHalf, arr);
 };
 
+// (Onlogn)
+
 const arr = [1, -5];
 mergeSort(arr);
 
